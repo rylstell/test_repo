@@ -7,6 +7,9 @@ def add(num1, num2):
 def sub(num1, num2):
 	return num1 - num2
 
+def multiply(num1, num2):
+	return num2 * num1
+
 def main():
 
 	a = 4
@@ -14,9 +17,11 @@ def main():
 
 	c = add(a, b)
 	d = sub(a, b)
+	e = multiply(a, b)
 
 	print(c)
 	print(d)
+	print(e)
 
 if __name__ == "__main__":
 	main()
